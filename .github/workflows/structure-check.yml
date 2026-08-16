@@ -1,0 +1,37 @@
+name: Structure Check
+
+# Guards the structural invariants a link checker cannot see:
+#   1. The markdown stays well-formed (in-page anchors resolve, table rows
+#      have consistent column counts, no malformed entries or open fences).
+#   2. The advertised plugin count in the badge matches the actual entry count.
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "scripts/check_markdown.py"
+      - "scripts/refresh_counts.py"
+      - ".github/workflows/structure-check.yml"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+  workflow_dispatch:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Markdown structure check
+        run: python3 scripts/check_markdown.py
+
+      - name: Plugin count check
+        run: python3 scripts/refresh_counts.py

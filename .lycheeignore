@@ -1,0 +1,6 @@
+# lychee link checker ignore list — these URLs are excluded from dead-link checks
+# because they block automated HEAD requests (401/403) but work in real browsers,
+# or they are dynamic badge endpoints that are not content links.
+
+shields.io
+img.shields.io

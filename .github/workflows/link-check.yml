@@ -1,0 +1,57 @@
+name: Link Check
+
+on:
+  schedule:
+    # Every Monday 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "README.md"
+      - ".github/workflows/link-check.yml"
+      - ".lycheeignore"
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --cache
+            --max-cache-age 14d
+            --accept "200,206,301,302,403,405,418,429,500,503"
+            --max-concurrency 8
+            --timeout 20
+            --retry-wait-time 5
+            --max-retries 2
+            --no-progress
+            --exclude-mail
+            --exclude "shields.io"
+            --exclude "img.shields.io"
+            './README.md'
+          fail: false
+          output: ./lychee-report.md
+
+      - name: Create issue if links broke
+        if: env.lychee_exit_code != '0'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔗 Broken links detected (link-check job)"
+          content-filepath: ./lychee-report.md
+          labels: maintenance, broken-link
