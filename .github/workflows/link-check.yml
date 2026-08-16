@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - "README.md"
+      - "README.en.md"
       - ".github/workflows/link-check.yml"
       - ".lycheeignore"
 
@@ -44,7 +45,7 @@ jobs:
             --exclude-mail
             --exclude "shields.io"
             --exclude "img.shields.io"
-            './README.md'
+            './README.md' './README.en.md'
           fail: false
           output: ./lychee-report.md
 

@@ -4,11 +4,15 @@ name: Structure Check
 #   1. The markdown stays well-formed (in-page anchors resolve, table rows
 #      have consistent column counts, no malformed entries or open fences).
 #   2. The advertised plugin count in the badge matches the actual entry count.
+#   3. The zh/en READMEs stay in structural lockstep (same headings, same
+#      entries in the same order).
 
 on:
   pull_request:
     paths:
       - "README.md"
+      - "README.en.md"
+      - "scripts/sync_audit.py"
       - "scripts/check_markdown.py"
       - "scripts/refresh_counts.py"
       - ".github/workflows/structure-check.yml"
@@ -16,6 +20,7 @@ on:
     branches: [main]
     paths:
       - "README.md"
+      - "README.en.md"
   workflow_dispatch:
 
 jobs:
@@ -29,6 +34,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: zh/en lockstep audit
+        run: python3 scripts/sync_audit.py
 
       - name: Markdown structure check
         run: python3 scripts/check_markdown.py

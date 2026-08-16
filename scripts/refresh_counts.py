@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FILES = ["README.md"]
+FILES = ["README.md", "README.en.md"]
 
 ENTRY_RE = re.compile(r"^-\s*\[[^\]]+\]\(https://github\.com/")
 BADGE_RE = re.compile(r"plugins-(\d+)-")
