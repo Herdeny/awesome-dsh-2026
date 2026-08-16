@@ -152,7 +152,8 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
         if not e:
             continue
         desc = e["zh_desc"] if is_zh else e["en_desc"]
-        body.append(f"- [{repo}](https://github.com/{repo}) - {desc} ({e['stars']}){score_badge(repo)}")
+        # ecosystem entries carry no QC badge — they are not plugins
+        body.append(f"- [{repo}](https://github.com/{repo}) - {desc} ({e['stars']})")
     body.append("")
 
     # official resources + contributing + license
