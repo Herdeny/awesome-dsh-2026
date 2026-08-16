@@ -5,6 +5,7 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Last updated: 2026-08](https://img.shields.io/badge/last--updated-2026--08-brightgreen.svg)
+![Plugins: 50](https://img.shields.io/badge/plugins-50-orange.svg)
 ![Contributors](https://img.shields.io/github/contributors/Herdeny/awesome-dsh-2026.svg)
 
 > 本列表中的星标数来自 2026-08-16 的 GitHub 调研快照，仅用于反映收录时的社区关注度。
