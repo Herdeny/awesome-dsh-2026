@@ -8,8 +8,6 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 ![Plugins: 50](https://img.shields.io/badge/plugins-50-orange.svg)
 ![Contributors](https://img.shields.io/github/contributors/Herdeny/awesome-dsh-2026.svg)
 
-> 本列表中的星标数来自 2026-08-16 的 GitHub 调研快照，仅用于反映收录时的社区关注度。
-
 ## 目录 / Contents
 
 - [收录原则 / Curation criteria](#curation-criteria)
