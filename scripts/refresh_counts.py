@@ -27,7 +27,7 @@ FILES = ["README.md", "README.en.md"]
 
 ENTRY_RE = re.compile(r"^-\s*\[[^\]]+\]\(https://github\.com/")
 BADGE_RE = re.compile(r"plugins-(\d+)-")
-EXCLUDE_SECTIONS = ("official-resources", "官方资源")
+EXCLUDE_SECTIONS = ("official-resources", "官方资源", "生态项目", "ecosystem")
 
 
 def section_counts(text: str) -> dict[str, int]:
