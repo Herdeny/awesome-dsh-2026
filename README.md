@@ -19,9 +19,11 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 - [🧪 测试与质检 / Testing & QA](#testing-qa)
 - [📦 示例与模板 / Examples & templates](#examples-templates)
 - [🧩 MCP 与集成 / MCP & integrations](#mcp-integrations)
+- [🧠 记忆与上下文 / Memory & context](#memory-context)
+- [🔒 安全与审计 / Security & audit](#security-audit)
+- [💻 桌面与客户端 / Desktop & clients](#desktop-clients)
 - [🌐 平台与渠道 / Platforms & channels](#platforms-channels)
 - [官方资源 / Official resources](#official-resources)
-- [其他 awesome 列表 / Other awesome lists](#other-awesome-lists)
 - [贡献指南 / Contributing](#contributing)
 
 <a id="curation-criteria"></a>
@@ -95,11 +97,37 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 - [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) - 开源超级 AI 助手与 Agent Harness (⭐46523)
 - [Haohao-end/openagent](https://github.com/Haohao-end/openagent) - 融合 OpenAI Deep Research 与 Dify 的一体化平台 (⭐788)
 
+<a id="memory-context"></a>
+
+## 🧠 记忆与上下文 / Memory & context
+
+- [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化，五轨记忆 · git 分版本 (⭐103)
+- [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - 跨 Agent、本地优先的持久记忆插件 (⭐42)
+- [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) - 三层自动记忆（用户级/项目笔记/每日日志）自动注入与检索 (⭐16)
+- [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) - 持久化、自动整合的记忆插件 (⭐16)
+
+<a id="security-audit"></a>
+
+## 🔒 安全与审计 / Security & audit
+
+- [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - DSH 插件安全与依赖监控 (⭐4)
+- [jkrandom-sudo/dsh-plugin-audit](https://github.com/jkrandom-sudo/dsh-plugin-audit) - 插件静态权限审计 (⭐4)
+- [nanshan1995/DSH-Plugin-Market](https://github.com/nanshan1995/DSH-Plugin-Market) - 插件市场：安装前静态安全审计闸门 (⭐4)
+
+<a id="desktop-clients"></a>
+
+## 💻 桌面与客户端 / Desktop & clients
+
+- [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - 为 DSH 插件生态打造的现代化桌面端解决方案 (⭐7423)
+- [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) - GenUI：交互式 UI 组件渲染 (⭐120)
+
 <a id="platforms-channels"></a>
 
 ## 🌐 平台与渠道 / Platforms & channels
 
 - [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) - 面向 DSH Web UI 的插件市场入口 (⭐60)
+- [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) - 本地私有、自进化跨平台 AI 内容发现 Agent (⭐2659)
+- [crafter-station/petdex](https://github.com/crafter-station/petdex) - Codex、Claude Code、DSH 等平台的动画宠物画廊 (⭐3842)
 - [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) - 经过验证的 DeepSeek Harness 插件双语目录 (⭐5)
 
 <a id="official-resources"></a>
@@ -108,20 +136,6 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 
 - [DeepSeek Harness 主仓库](https://github.com/deepseek-ai/deepseek-harness) - 源代码、发布记录与项目说明
 - [DeepSeek Harness 官方文档](https://github.com/deepseek-ai/deepseek-harness/tree/master/docs) - 官方仓库中的开发与架构文档
-
-<a id="other-awesome-lists"></a>
-
-## 其他 awesome 列表 / Other awesome lists
-
-感谢以下社区列表共同整理和推广 DeepSeek Harness 生态，欢迎彼此引用、互相补充：
-
-- [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) - 社区主列表 (⭐3668)
-- [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) - DeepSeek Harness 生态全套资源 (⭐537)
-- [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) - 帮助开发者快速发现插件 (⭐163)
-- [Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins](https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins) - DeepSeek Harness 插件精选列表 (⭐81)
-- [libukai/awesome-deepseek-harness](https://github.com/libukai/awesome-deepseek-harness) - 入门指南与精选资源 (⭐79)
-- [Dominic789654/awesome-deepseek-harness](https://github.com/Dominic789654/awesome-deepseek-harness) - DeepSeek Harness 生态资源合集 (⭐54)
-- [beancookie/awesome-dsh-plugin](https://github.com/beancookie/awesome-dsh-plugin) - 社区维护的 DSH 插件列表 (⭐45)
 
 <a id="contributing"></a>
 
