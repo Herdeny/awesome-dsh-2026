@@ -16,8 +16,12 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 - [🎨 设计与创意 / Design & creative](#design-creative)
 - [👁️ 视觉与多模态 / Vision](#vision)
 - [🖥️ Web UI 与界面 / Web UI](#web-ui)
+- [🎨 主题与外观 / Themes & appearance](#themes-appearance)
+- [💰 模型与额度 / Models & quota](#models-quota)
 - [🧪 测试与质检 / Testing & QA](#testing-qa)
 - [📦 示例与模板 / Examples & templates](#examples-templates)
+- [💬 会话与消息 / Sessions & messages](#sessions-messages)
+- [🎮 趣味 / Just for fun](#just-for-fun)
 - [🧩 MCP 与集成 / MCP & integrations](#mcp-integrations)
 - [🧠 记忆与上下文 / Memory & context](#memory-context)
 - [🔒 安全与审计 / Security & audit](#security-audit)
@@ -71,6 +75,20 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 - [HsiangNianian/dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - 自动发送“继续”，恢复被中断的请求 (⭐18)
 - [buhuikongpan/dsh-pluginmanager](https://github.com/buhuikongpan/dsh-pluginmanager) - 面向 DSH 的分层插件管理器 (⭐5)
 
+<a id="themes-appearance"></a>
+
+## 🎨 主题与外观 / Themes & appearance
+
+- [GGBond2424648901/deep-whale-day-night-theme](https://github.com/GGBond2424648901/deep-whale-day-night-theme) - 完整 Deep Whale 昼夜主题 UI 包，含鲸鱼主视觉 (⭐56)
+- [KinGao294/dsh-skin](https://github.com/KinGao294/dsh-skin) - 皮肤切换器 + 自定义壁纸 (⭐15)
+
+<a id="models-quota"></a>
+
+## 💰 模型与额度 / Models & quota
+
+- [feibi-mochi/deepseek-harness-wallet](https://github.com/feibi-mochi/deepseek-harness-wallet) - 余额监控、会话级花费与 Token 追踪 (⭐17)
+- [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) - ChatGPT OAuth 与 Codex 模型接入 (⭐11)
+
 <a id="testing-qa"></a>
 
 ## 🧪 测试与质检 / Testing & QA
@@ -88,6 +106,20 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 - [sunshine-lang/dsh-plugin-template](https://github.com/sunshine-lang/dsh-plugin-template) - 可直接发布的插件骨架，包含打包格式与工具注册示例 (⭐3)
 - [omdsh-dev/plugin-template](https://github.com/omdsh-dev/plugin-template) - 基于 Turtle UI 官方仓库构建的插件模板 (⭐6)
 - [OneZero-Y/dsh-plugin-kit](https://github.com/OneZero-Y/dsh-plugin-kit) - 集成 Agent Skills 与可运行模板的插件开发套件 (⭐3)
+
+<a id="sessions-messages"></a>
+
+## 💬 会话与消息 / Sessions & messages
+
+- [Anionex/dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) - 对话与代码状态回退插件，可重放历史回合 (⭐61)
+- [hellodigua/dsh-emoji](https://github.com/hellodigua/dsh-emoji) - AI 回复自定义表情，支持 B 站、小红书、贴吧等多平台表情包 (⭐19)
+
+<a id="just-for-fun"></a>
+
+## 🎮 趣味 / Just for fun
+
+- [lhh010/dsh-minigames](https://github.com/lhh010/dsh-minigames) - Web UI 右侧小游戏面板：18 款离线小游戏 (⭐18)
+- [crafter-station/petdex](https://github.com/crafter-station/petdex) - Codex、Claude Code、DSH 等平台的动画宠物画廊 (⭐3842)
 
 <a id="mcp-integrations"></a>
 
@@ -127,7 +159,6 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 
 - [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) - 面向 DSH Web UI 的插件市场入口 (⭐60)
 - [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) - 本地私有、自进化跨平台 AI 内容发现 Agent (⭐2659)
-- [crafter-station/petdex](https://github.com/crafter-station/petdex) - Codex、Claude Code、DSH 等平台的动画宠物画廊 (⭐3842)
 - [walkinglabs/awesome-deepseek-harness-plugins](https://github.com/walkinglabs/awesome-deepseek-harness-plugins) - 经过验证的 DeepSeek Harness 插件双语目录 (⭐5)
 
 <a id="official-resources"></a>
