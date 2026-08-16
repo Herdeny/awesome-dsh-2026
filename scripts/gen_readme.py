@@ -96,10 +96,16 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 """
 
 
+def plugin_count() -> int:
+    """Count standard plugins (all section repos minus ecosystem/official)."""
+    return sum(len(repos) for *_, repos in SECTIONS)
+
+
 def render(lang: str, entries: dict) -> str:
     is_zh = lang == "zh"
     switch = ("📖 English: [README.en.md](README.en.md)" if is_zh
               else "📖 中文主版：[README.md](README.md) · English version: this page")
+    n_plugins = plugin_count()
     header = f"""# awesome-dsh-2026
 
 面向国内开发者、按质量精选并持续维护的 DeepSeek Harness（DSH）2026 插件生态列表。<br>
@@ -109,8 +115,8 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Last updated: 2026-08](https://img.shields.io/badge/last--updated-2026--08-brightgreen.svg)
-![Plugins: 46](https://img.shields.io/badge/plugins-46-orange.svg)
-![Contributors](https://img.shields.io/github/contributors/Herdeny/awesome-dsh-2026.svg)
+![Plugins: {n_plugins}](https://img.shields.io/badge/plugins-{n_plugins}-orange.svg)
+![Contributors](https://img.shields.io/github/contributors/Herdeny/awesome-dsh-plugins-2026.svg)
 
 """
 
