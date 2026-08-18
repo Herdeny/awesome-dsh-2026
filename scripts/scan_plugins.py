@@ -37,10 +37,18 @@ SEARCH_QUERIES = [
     "dsh vision",
     "dsh memory",
     "dsh theme",
+    "dsh tool",
+    "dsh mcp",
+    "dsh agent",
+    "deepseek harness ui",
+    "deepseek harness theme",
+    "deepseek harness extension",
+    "dsh extension",
+    "deepseek harness api",
 ]
 
 # How many top-starred results per query to consider
-PER_QUERY = 10
+PER_QUERY = 50
 # Minimum stars to be worth reporting as a NEW candidate
 MIN_NEW_STARS = 3
 
