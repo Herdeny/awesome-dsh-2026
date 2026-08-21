@@ -7,7 +7,7 @@ A quality-focused, annually maintained collection of DeepSeek Harness (DSH) plug
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Last updated: 2026-08](https://img.shields.io/badge/last--updated-2026--08-brightgreen.svg)
-![Plugins: 55](https://img.shields.io/badge/plugins-100-orange.svg)
+![Plugins: 55](https://img.shields.io/badge/plugins-113-orange.svg)
 ![Contributors](https://img.shields.io/github/contributors/Herdeny/awesome-dsh-plugins-2026.svg)
 
 ## 目录 / Contents
@@ -45,18 +45,22 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 
 ## 🔌 开发框架与工具
 
-- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) - DeepSeek Harness 官方主仓库，践行“一切皆插件”的扩展理念 (⭐159743)
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) - DeepSeek Harness 官方主仓库，践行“一切皆插件”的扩展理念 (⭐180722)
 - [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) - 两阶段 DSH 预设：先进行最小对齐引导，再完成标准化对齐 (⭐3550) 🛡️QC:31 🟠
 - [edison7009/EchoBird](https://github.com/edison7009/EchoBird) - 一键安装 + 模型切换：覆盖 Claude Code、Codex、Grok、DSH、Kimi、Qwen、Aider 等 15+ 编程代理 (⭐3087) 🛡️QC:21 🔴
 - [foryourhealth111-pixel/Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) - 通用 Skill 路由器：自动路由本地 Skills，智能编排 Harness 工作流（含 DSH） (⭐2910) 🛡️QC:0 🔴
 - [tong-io/tongflow](https://github.com/tong-io/tongflow) - 多模态工作流工作室与引擎（画布 + Python 插件引擎），含 dsh-tongflow 工作室插件 (⭐872) 🛡️QC:30 🟠
 - [SheberDavid/v4-flash-godmode-opencode-go](https://github.com/SheberDavid/v4-flash-godmode-opencode-go) - DSH agent 预设：让 opencode-go 的 DeepSeek V4 Flash 从“鬼模式”切换到“神模式” (⭐499) 🛡️QC:25 🔴
 - [liceses/dsh-gitbash-preset](https://github.com/liceses/dsh-gitbash-preset) - 一键安装「极简模式 (Git Bash)」agent preset：把 DSH 极简模式中的 bash 调用映射为 Git Bash 环境 (⭐135)
+- [christopherarter/superpowers-reasonix](https://github.com/christopherarter/superpowers-reasonix) - Superpowers 技能包移植到 Reasonix 编程 Harness（DeepSeek 原生终端代理，支持 DSH 生态） (⭐94)
+- [omdsh-dev/dsh_workflow](https://github.com/omdsh-dev/dsh_workflow) - 把 Claude Code 的 UltraCode 模式带给 DSH：一次性多 Agent 调度升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层 (⭐93)
 
 <a id="design-creative"></a>
 
 ## 🎨 设计与创意
 
+- [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 在 DSH 对话中直接生成图片 (⭐124)
+- [worldwonderer/oh-story-dsh](https://github.com/worldwonderer/oh-story-dsh) - 小说创作与短剧生产插件：由 Oh Story 与 Drama Skills 驱动的写作工作流 (⭐104)
 - [devin-axis/deepseek-design](https://github.com/devin-axis/deepseek-design) - 可编辑设计系统，支持 AI 生成、可视化编辑、模板市场与 PPT (⭐69) 🛡️QC:17 🔴
 - [zseven-w/dsh-openpencil](https://github.com/zseven-w/dsh-openpencil) - OpenPencil 预览、检查与编辑插件 (⭐102) 🛡️QC:64 🟡
 
@@ -64,11 +68,11 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 
 ## 👁️ 视觉与多模态
 
-- [liustack/modlens](https://github.com/liustack/modlens) - DSH 视觉桥接插件，为纯文本 Agent 提供视觉能力 (⭐3090) 🛡️QC:43 🟠
-- [anionex/dsh-vision-toolkit](https://github.com/anionex/dsh-vision-toolkit) - 让纯文本模型完成意图图片问答、长截图 OCR 与 UI 还原 (⭐559) 🛡️QC:65 🟡
+- [liustack/modlens](https://github.com/liustack/modlens) - DSH 视觉桥接插件，为纯文本 Agent 提供视觉能力 (⭐3496) 🛡️QC:43 🟠
+- [anionex/dsh-vision-toolkit](https://github.com/anionex/dsh-vision-toolkit) - 让纯文本模型完成意图图片问答、长截图 OCR 与 UI 还原 (⭐806) 🛡️QC:65 🟡
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - 为纯文本 DSH Agent 提供内置免费视觉链路 (⭐842) 🛡️QC:52 🟡
 - [xiincs/claude-code-vision-skill](https://github.com/xiincs/claude-code-vision-skill) - 接入豆包、通义千问与 GPT-4o，支持截图、UI 和图表分析 (⭐165) 🛡️QC:17 🔴
-- [oil-oil/dsh-vision](https://github.com/oil-oil/dsh-vision) - 为 DeepSeek Harness 提供接近原生体验的图像理解能力 (⭐55) 🛡️QC:69 🟡
+- [oil-oil/dsh-vision](https://github.com/oil-oil/dsh-vision) - 为 DeepSeek Harness 提供接近原生体验的图像理解能力 (⭐83) 🛡️QC:69 🟡
 - [Yts1919/dsh-vision-complete](https://github.com/Yts1919/dsh-vision-complete) - 多模态「眼睛和耳朵」插件：看图/OCR/物体检测/视频理解/语音转写/截图直读 (⭐33) 🛡️QC:25 🔴
 - [william-jin-cmu/dsh-vision](https://github.com/william-jin-cmu/dsh-vision) - view_image 工具桥接任意 OpenAI 兼容 VLM（默认智谱免费档，实测 4 厂商 10 模型） (⭐32) 🛡️QC:47 🟠
 - [jing-hy/picturereader](https://github.com/jing-hy/picturereader) - 像素级图片读取插件：image_scan/image_ocr/image_sample 工具 + 图片阅读技能，纯文本模型也能读图，纯本地运行 (⭐21) 🛡️QC:44 🟠
@@ -83,6 +87,7 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 - [ccch1mneyyy/dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) - 官方公众号收录的 Claude Code 风 TUI 补位插件：鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚，npm 一键安装 (⭐1964) 🛡️QC:33 🟠
 - [ccch1mneyyy/working-activity](https://github.com/ccch1mneyyy/working-activity) - 为 pi CLI 与 DSH 打造的生动工作行（statusline）扩展 (⭐653) 🛡️QC:28 🔴
 - [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) - 官方 DeepSeek Harness 交互式终端 UI 插件：自研 ANSI 极简渲染核心、流式 Markdown 与实时状态 (⭐224)
+- [liangmianya/dsh-synapse](https://github.com/liangmianya/dsh-synapse) - 可视化的非线性对话工作区：基于画布的会话探索与分支工作区 (⭐144)
 - [sanqi-normal/dsh-webui-market-plugin](https://github.com/sanqi-normal/dsh-webui-market-plugin) - 面向 DSH Web UI 的插件市场入口 (⭐66) 🛡️QC:61 🟡
 - [francis-xavier-code/dsh-balance-plugin](https://github.com/francis-xavier-code/dsh-balance-plugin) - 提供余额监控与用量统计能力 (⭐27) 🛡️QC:61 🟡
 - [hsiangnianian/dsh-auto-continue](https://github.com/hsiangnianian/dsh-auto-continue) - 自动发送“继续”，恢复被中断的请求 (⭐22) 🛡️QC:72 🟢
@@ -96,6 +101,7 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 
 - [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) - 适用于 DeepSeek Harness 的鲸鱼娘系列皮肤 (⭐1456) 🛡️QC:25 🔴
 - [WYH66666666/DSH-Transparent-UI-Plugin](https://github.com/WYH66666666/DSH-Transparent-UI-Plugin) - 高自由度玻璃质感主题：模糊度/磨砂度/背景自由调节，不改 DSH 源码 (⭐171) 🛡️QC:53 🟡
+- [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) - 把本机 Wallpaper Engine 壁纸变成 DSH 网页界面背景：Video 动态播放、Web 以 iframe 加载、Scene 壁纸静态帧 (⭐137)
 - [d-dev0101/open-sea-skin](https://github.com/d-dev0101/open-sea-skin) - WebGPU 海洋皮肤：DSH 专属 Chrome/Edge 扩展、静态安装器与原生集成 (⭐119) 🛡️QC:58 🟡
 - [ggbond2424648901/deep-whale-day-night-theme](https://github.com/ggbond2424648901/deep-whale-day-night-theme) - 完整 Deep Whale 昼夜主题 UI 包，含鲸鱼主视觉 (⭐68) 🛡️QC:66 🟡
 - [RevolutionLA/dsh-dream-skin](https://github.com/RevolutionLA/dsh-dream-skin) - 换肤/壁纸/主题包插件：8 套 Mirage 主题、每用户强调色、主题包导入导出与收藏 (⭐34) 🛡️QC:67 🟡
@@ -165,9 +171,13 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 - [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) - Chrome 侧边栏扩展，让 DSH 无需视觉能力即可直接操控浏览器 (⭐216) 🛡️QC:28 🔴
 - [liustack/modsearch](https://github.com/liustack/modsearch) - DSH 网页搜索插件：全模式通用的搜索桥接能力 (⭐191)
 - [Utopia-V/mixagents](https://github.com/Utopia-V/mixagents) - Harness 原生 Agent 组件：为 Codex 与 Pi 提供 DeepSeek V4 Flash 子代理与 V4 Pro 的 DSH Minimal 模拟 (⭐177)
-- [anysearch-team/anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) - AnySearch 网页搜索提供商与高级搜索工具，为 DSH 接入多源搜索 (⭐158)
+- [ZSeven-W/dsh-ios](https://github.com/ZSeven-W/dsh-ios) - 对话内接入实时 iOS 模拟器与 USB 连接的 iPhone：22 个 Agent 工具，可启动、构建、按无障碍标识驱动 UI 与 OCR 文本操作 (⭐169)
+- [anysearch-team/anysearch-dsh](https://github.com/anysearch-team/anysearch-dsh) - AnySearch 网页搜索提供商与高级搜索工具，为 DSH 接入多源搜索 (⭐180)
 - [weijiafu14/pi2dsh](https://github.com/weijiafu14/pi2dsh) - 打通 Pi 与 DSH 生态：一套 Pi Host ABI 即可把 Pi 扩展原样跑成原生 DSH 插件 (⭐153)
-- [ZSeven-W/dsh-crew](https://github.com/ZSeven-W/dsh-crew) - 从 Claude Code / Codex 向 DSH Agent 派发任务，原生子代理进度汇报 (⭐59) 🛡️QC:54 🟡
+- [toolclub/dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - 持久化多模型工作流团队：动态主导规划、有界 DAG、每 Agent 独立模型/工具，附 Run Center 与 Token 洞察 (⭐115)
+- [omdsh-dev/dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) - 连接 DSH 与数据库，进行对话式数据分析并产出可执行的业务洞察 (⭐105)
+- [Tabbit-Browser/dsh-tabbit](https://github.com/Tabbit-Browser/dsh-tabbit) - Tabbit 浏览器插件：让 DSH 通过 Tabbit 浏览器自动化操控网页 (⭐92)
+- [ZSeven-W/dsh-crew](https://github.com/ZSeven-W/dsh-crew) - 从 Claude Code / Codex 向 DSH Agent 派发任务，原生子代理进度汇报 (⭐93) 🛡️QC:54 🟡
 
 <a id="memory-context"></a>
 
@@ -179,7 +189,7 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 - [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) - 代码库结构化记忆：双时态知识图谱，MCP 原生、零 LLM 调用，毫秒级查询 (⭐454) 🛡️QC:25 🔴
 - [csyangwen/dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化，五轨记忆 · git 分版本 (⭐131) 🛡️QC:31 🟠
 - [ZSeven-W/dsh-noema](https://github.com/ZSeven-W/dsh-noema) - Noema 长期记忆插件：持久、可检视的 Agent 记忆，带召回工具与设置页 (⭐90) 🛡️QC:64 🟡
-- [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - 跨 Agent、本地优先的持久记忆插件 (⭐62) 🛡️QC:59 🟡
+- [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - 跨 Agent、本地优先的持久记忆插件 (⭐162) 🛡️QC:59 🟡
 - [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、审批门控、可审计的跨会话记忆 (⭐57) 🛡️QC:70 🟢
 - [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) - 持久化、自动整合的记忆插件 (⭐19) 🛡️QC:17 🔴
 - [aik358/dsh-auto-memory](https://github.com/aik358/dsh-auto-memory) - 三层自动记忆（用户级/项目笔记/每日日志）自动注入与检索 (⭐11) 🛡️QC:61 🟡
@@ -188,6 +198,7 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 
 ## 🔒 安全与审计
 
+- [lire1131/dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) - DSH 崩溃救援插件：撤销配置与插件代码改动、密钥安全快照、一键 SAFE MODE；DSH 无法启动时也有离线 CLI/GUI (⭐111)
 - [micromilo/upstream-radar](https://github.com/micromilo/upstream-radar) - DSH 插件安全与依赖监控 (⭐4) 🛡️QC:41 🟠
 - [jkrandom-sudo/dsh-plugin-audit](https://github.com/jkrandom-sudo/dsh-plugin-audit) - 插件静态权限审计 (⭐4) 🛡️QC:51 🟡
 - [nanshan1995/dsh-plugin-market](https://github.com/nanshan1995/dsh-plugin-market) - 插件市场：安装前静态安全审计闸门 (⭐4) 🛡️QC:55 🟡
@@ -203,6 +214,8 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 - [lencx/Minke](https://github.com/lencx/Minke) - 🐳 DeepSeek Harness 桌面客户端 (⭐229) 🛡️QC:28 🔴
 - [omdsh-dev/dsh-genui](https://github.com/omdsh-dev/dsh-genui) - GenUI：交互式 UI 组件渲染 (⭐223) 🛡️QC:52 🟡
 - [QCYTSN/dsh-dafeiyu](https://github.com/QCYTSN/dsh-dafeiyu) - 桌面原生大鱼（BigFish）陪伴应用：实时显示 Agent 状态，Windows 置顶常驻 (⭐201)
+- [whitelonng/dshcode](https://github.com/whitelonng/dshcode) - 社区桌面伴侣：macOS/Windows 一键启动的 Electron 应用 (⭐146)
+- [ChisaAlter/Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) - DSH 桌面端：支持主题与背景图等多种个性化配置的 Electron 外壳 (⭐132)
 - [ningbainb/deepseek-harness-desktop](https://github.com/ningbainb/deepseek-harness-desktop) - Windows 桌面客户端：零配置安装，内置 Codex/插件/技能/SSH 远程访问与 11 款皮肤 (⭐66) 🛡️QC:11 🔴
 - [qiannianhuanxiang/DSHA](https://github.com/qiannianhuanxiang/DSHA) - 安卓启动器：内置 proot+Ubuntu，免 ROOT 免 Termux 一键运行 DeepSeek Harness (⭐65) 🛡️QC:25 🔴
 - [WEP-56/DSH-Launcher](https://github.com/WEP-56/DSH-Launcher) - webui 内嵌式启动器：包管理/配置管理/插件管理，兼容所有 webui 强化插件 (⭐17) 🛡️QC:33 🟠
@@ -222,7 +235,7 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 
 与 DSH 生态相关但不是标准插件（无 cordis 插件清单）的项目，QC 评分为 0 属正常。
 
-- [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - 为 DSH 插件生态打造的现代化桌面端解决方案 (⭐15064)
+- [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - 为 DSH 插件生态打造的现代化桌面端解决方案 (⭐17506)
 - [crafter-station/petdex](https://github.com/crafter-station/petdex) - Codex、Claude Code、DSH 等平台的动画宠物画廊 (⭐3842)
 - [devin-axis/ipollowork](https://github.com/devin-axis/ipollowork) - 集成自进化 Agent 运行时的下一代 AI 工作空间 (⭐4115)
 - [haohao-end/openagent](https://github.com/haohao-end/openagent) - 融合 OpenAI Deep Research 与 Dify 的一体化平台 (⭐788)
@@ -233,7 +246,7 @@ Scores from [dsh-qc](https://github.com/Herdeny/dsh-qc), 100-point static+dynami
 - [zhayujie/cowagent](https://github.com/zhayujie/cowagent) - 开源超级 AI 助手与 Agent Harness (⭐46523)
 - [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) - DSH Web UI 的插件与皮肤合集 (⭐5147)
 - [text2future/flowix](https://github.com/text2future/flowix) - 本地优先的 Markdown 笔记应用：笔记即 Agent 记忆，内置 DSH 插件 dsh-flowix-memory（MCP & CLI） (⭐314)
-- [firstintent/ccteam](https://github.com/firstintent/ccteam) - 多 Agent 编排：把 Claude Code / Codex / Grok / Kimi / DeepSeek Harness 组成一个团队，任意会话派发与回收任务 (⭐252)
+- [firstintent/ccteam](https://github.com/firstintent/ccteam) - 多 Agent 编排：把 Claude Code / Codex / Grok / Kimi / DeepSeek Harness 组成一个团队，任意会话派发与回收任务 (⭐289)
 - [MemTensor/MemOS](https://github.com/MemTensor/MemOS) - 自进化记忆操作系统：超持久记忆、混合检索、跨任务技能复用，实测节省 35.24% Token，支持 DeepSeek Harness（本地/云端插件） (⭐10763)
 - [Nagi-ovo/voyager](https://github.com/Nagi-ovo/voyager) - Gemini / AI Studio / Claude / ChatGPT 增强套件 + 通用 Web UI 提示词管理器，DeepSeek Harness 同样适用 (⭐19647)
 - [PM-Shawn/Abu-Cowork](https://github.com/PM-Shawn/Abu-Cowork) - 开源 Claude Cowork 替代：本地优先 AI Agent 桌面应用，多模型、自进化技能，集成 DeepSeek Harness (⭐334)
